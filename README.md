@@ -1,2 +1,1 @@
-# testing
-#Im writing this to test
+#This repo consist of C++ Practice Questions with codes
