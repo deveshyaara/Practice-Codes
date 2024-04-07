@@ -13,9 +13,9 @@ int main()
     v.push_back(5);
     int k = 3;
     k = k % v.size();
-    reverse (v.begin(), v.end());
-    reverse(v.begin(), v.begin() + k);
-    reverse(v.begin() + k, v.end());
+    // reverse (v.begin(), v.end()); My system is not accepting this command 
+    // reverse(v.begin(), v.begin() + k);
+    // reverse(v.begin() + k, v.end());  16,17,18 are not comment 
     for (int a : v)
     {
         cout << a << " ";
