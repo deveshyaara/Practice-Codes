@@ -21,7 +21,7 @@ void sortSquareOut(vector<int> &v)
             left_ptr++;
         }
     }  
-    //reverse(ans.begin(),ans.end());  We need to reverse it but reverse function is not working in this system
+    reverse(ans.begin(),ans.end());  //We need to reverse it but reverse function is not working in this system
     for (int i = 0; i < v.size(); i++)
         {
             cout<<ans[i]<<" ";
