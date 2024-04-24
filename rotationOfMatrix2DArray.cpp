@@ -2,6 +2,7 @@
 direction without using any extra space*/
 #include<iostream>
 #include<vector>
+#include "../../../../../../../MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/algorithmfwd.h"
 using namespace std;
 void rotateArray(vector<vector<int>> &vec)
 {
