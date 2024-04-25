@@ -44,7 +44,7 @@ vector<vector<int>> CreateSpiralMatrix(int n)
                 matrix[j][left]=value++;
             }bottom--;
         }
-        direction=(direction=1)%4;
+        direction=(direction+1)%4;
     }
     return matrix;
 }
