@@ -40,7 +40,5 @@ int main()
     }
     int sum = rectangleSum(matrix, l1, l2, r1, r2);
     cout<<sum<<endl;
-
-    
     return 0;
 }
